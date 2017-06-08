@@ -26,7 +26,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 
 <?php 
-include 'header.php';
+include 'includes/header.php';
 ?>
 
 <div class="container">
@@ -78,7 +78,7 @@ include 'header.php';
 			 </script>
 			 <div class="registration_form">
 			 <!-- Form -->
-				<form id="registration_form" action="signup.php" method="post">
+				<form id="registration_form" action="connections/signup.php" method="post">
 					<div>
 						<label>
 							<input name="first" placeholder="first name:" type="text" tabindex="1" required autofocus>
@@ -122,7 +122,7 @@ include 'header.php';
 						</label>
 					</div>
 					<div class="sky-form">
-						<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>i agree to &nbsp;<a class="terms" href="#"> terms of service</a> </label>
+						<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>I agree to &nbsp;<a class="terms" href="#"> terms of the service</a> </label>
 					</div>
 					<div>
 						<input type="submit" value="create an account" id="register-submit">
@@ -136,7 +136,7 @@ include 'header.php';
 			 <h2>Have An Account</h2>
 			 <div class="registration_form">
 			 <!-- Form -->
-				<form id="registration_form" action="login.php" method="post">
+				<form id="registration_form" action="connections/login.php" method="post">
 					<div>
 						<label>
 							<input name="uname" placeholder="user name" type="text" tabindex="3" required>
